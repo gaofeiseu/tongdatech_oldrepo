@@ -1,0 +1,55 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="map" extends="system" namespace="/">
+	 
+	    <action name="map_markerclassmaintance_*" class="com.tongdatech.map.action.MapMarkerClassMaintanceAction" method="{1}">
+			<result name="init">/map/map_MarkersClassMaintance.jsp</result>
+			<result name="brchTree">/map/brchTree.jsp</result>
+		</action>
+		<action name="map_markersaddition_*" class="com.tongdatech.map.action.MapMarkersAdditionAction" method="{1}">
+			<result name="init">/map/map_addmarkers.jsp</result>
+		</action>
+		<action name="map_echopath_*" class="com.tongdatech.map.action.MapEchoPathAction" method="{1}">
+			<result name="init">/map/map_echopath.jsp</result>
+		</action>
+		<action name="map_tools_*" class="com.tongdatech.map.action.MapToolsAction" method="{1}">
+			<result name="init">/map/map_tools.jsp</result>
+		</action>
+		<action name="map_update_*" class="com.tongdatech.map.action.MapUpdateAction" method="{1}">
+			<result name="init">/map/map_update.jsp</result>
+		</action>
+		<action name="map_datainput_*" class="com.tongdatech.map.action.MapDataInputAction" method="{1}">
+			<result name="init">/map/map_datainput.jsp</result>
+			<result name="download" type="stream"> 
+                <param name="inputName">inputStream</param>
+                <param name="contentDisposition">attachment;filename="${file_name}"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+		</action>
+		<action name="map_dataparser_*" class="com.tongdatech.map.action.MapDataParserAction" method="{1}">
+			<result name="init">/map/map_dataparser.jsp</result>
+		</action>
+		
+		
+		
+		<action name="map_query_*" class="com.tongdatech.map.action.MapQueryAction" method="{1}"> 
+			<result name="success">/map/columnQuery.jsp</result>
+		</action>
+		
+		
+		<action name="map_data_*" class="com.tongdatech.map.action.MapDataManageAction" method="{1}"> 
+			<result name="init">/map/map_data_init.jsp</result>
+			<result name="excel" type="chain">
+		       	<param name="actionName">excel</param>
+		       	<param name="namespace">/</param>
+		       	<param name="excelBean">${excelBean}</param>
+	        </result>
+		</action>
+		
+		
+	</package>
+</struts>
+
+ 

@@ -1,0 +1,49 @@
+<!DOCTYPE weblogic-web-app PUBLIC "-//BEA Systems, Inc.//DTD Web Application 8.1//EN" "weblogic810-web-jar.dtd">
+
+<weblogic-web-app>
+
+	<session-descriptor>
+ 
+		<session-param>
+			<param-name>CookieMaxAgeSecs</param-name>
+			<param-value>-1</param-value>
+		</session-param>
+
+		<session-param>
+			<param-name>InvalidationIntervalSecs</param-name>
+			<param-value>60</param-value>
+		</session-param>
+
+		<session-param>
+			<param-name>TimeoutSecs</param-name>
+			<param-value>3600</param-value>
+		</session-param>
+
+		<session-param>
+			<param-name>CookieName</param-name>
+			<param-value>PROJSOLESESSION33111</param-value>
+		</session-param>
+	</session-descriptor>
+
+	<jsp-descriptor>
+
+		<jsp-param>
+			<param-name>pageCheckSeconds</param-name>
+			<param-value>1</param-value>
+		</jsp-param>
+
+
+	</jsp-descriptor>
+
+	<container-descriptor>
+		<prefer-web-inf-classes>true</prefer-web-inf-classes>
+	</container-descriptor>
+	<context-root>/</context-root>
+	
+	<virtual-directory-mapping>  
+        <local-path>f:/</local-path>  
+        <url-pattern>/maptile/*</url-pattern>  
+    </virtual-directory-mapping>
+
+</weblogic-web-app>
+

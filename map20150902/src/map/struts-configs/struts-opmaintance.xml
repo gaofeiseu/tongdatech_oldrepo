@@ -1,0 +1,17 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="op_maintance" extends="system" namespace="/">
+	 
+	    <action name="op_maintance_js_*" class="com.tongdatech.op.action.OpMaintanceOpJsAction" method="{1}">
+			<result name="init">/OpMaintance/op_js.jsp</result>
+		</action>
+		<action name="op_maintance_database_*" class="com.tongdatech.op.action.OpMaintanceOpDataBaseAction" method="{1}">
+			<result name="init">/OpMaintance/op_database.jsp</result>
+		</action>
+		
+	</package>
+</struts>
+
+ 

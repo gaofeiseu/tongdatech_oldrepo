@@ -1,0 +1,77 @@
+#logo{
+	
+    background-position:buttom right;
+    background-repeat: no-repeat;
+    width:376px;
+    height:60px;
+    margin-left:2px;
+
+	}
+	
+#head{
+	background-image: url("/weblib/img/head_bg.png");
+	background-repeat: repeat-x;
+    height:88px;
+	}
+	
+#info{
+	position:absolute;
+	right:20px;
+	bottom:16px;
+	min-width: 250px;
+	z-index:20;
+	}
+#info1{
+	position:absolute;
+	right:20px;
+ 
+	min-width: 250px;
+	z-index:20;
+	}
+#arrow{
+	position:absolute;
+	left:0px;
+	top:52px;
+	z-index:21;
+	}
+#online{
+	position:absolute;
+	right:20px;
+	top:20px;
+	z-index:22;
+	font-size:12px;
+	color: #CCD6EC;
+	}
+#hide{
+	margin-left: 150px;
+
+}
+#show{
+	visibility:hidden;
+
+}
+li
+{
+ 
+    float: left;
+    
+    font-size:14px;
+    padding-left:8px;
+    
+	}	
+
+li a	{
+	  background: url(/weblib/img/alink.png) no-repeat scroll left 10px transparent;
+	  font-size:14px;
+    display: inline;
+    float: left;
+    overflow: auto;
+    text-align: left;
+    padding-left:8px;
+    text-decoration: none;
+  }
+li a:hover	{
+	  background: url(/weblib/img/alink.png) no-repeat scroll left -7px transparent;
+	  color:#009641;
+
+  }

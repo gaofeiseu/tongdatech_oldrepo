@@ -1,0 +1,43 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="xbxt" extends="system" namespace="/">
+	
+	    <action name="xbxt_*" class="com.tongdatech.xbxt.action.XBAction" method="{1}">
+			<result name="init">/xbxt/cust_month_usage_report.jsp</result>
+			<result name="init2">/xbxt/total_aver_time.jsp</result>
+			<result name="init3">/xbxt/report_settings.jsp</result>
+			<result name="init_interface">/xbxt/xb_interface.jsp</result>
+			<result name="init_khyyqkjb">/xbxt/xb_khyyqkjb.jsp</result>
+			<result name="init_cust_warning">/xbxt/cust_warning.jsp</result>
+			<result name="init_mgr_setting">/xbxt/mgr_settings.jsp</result>
+			<result name="init_cust_hz_report">/xbxt/cust_hz_report.jsp</result>
+			<result name="init_mgr_visit_show">/xbxt/mgr_visit_show.jsp</result>
+			<result name="init_img_show">/xbxt/img_show.jsp</result>
+			<result name="init_overtime_page">/xbxt/xb_overtime.jsp</result>
+			
+			<result name="download" type="stream">
+				<param name="contentType">application/vnd.ms-excel</param>
+                <param name="inputName">inputStream</param>
+                <param name="contentDisposition">attachment;filename="${file_name}"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+		</action>
+		
+		<action name="xbm_*" class="com.tongdatech.xbxt.action.XBMobileAction" method="{1}">
+			<result name="about_section">/Jingle/html/about_section.jsp</result>
+			<result name="MarketingRecord_section">/Jingle/html/marketing_record.jsp</result>
+			<result name="feequery_section">/Jingle/html/feequery_section.jsp</result>
+			<result name="visit_log_section">/Jingle/html/visit_log_section.jsp</result>
+			<result name="cust_warning_section">/Jingle/html/cust_warning_section.jsp</result>
+			<result name="cust_report_section">/Jingle/html/cust_report_section.jsp</result>
+			<result name="cust_report_detail_section">/Jingle/html/cust_report_detail_section.jsp</result>
+		</action>
+		
+		<action name="xbmlogin_*" class="com.tongdatech.xbxt.action.XBMobileLoginAction" method="{1}">
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+		</action>
+		
+	</package>
+</struts>

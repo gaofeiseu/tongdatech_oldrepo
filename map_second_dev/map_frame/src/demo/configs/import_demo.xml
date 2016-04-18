@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE import SYSTEM "dataimport.dtd">
+<import>
+  <bean name="demoImport"  class="com.tongdatech.sys.demo.service.DemoImportService"
+   types="excel,csv,dbf" title="测试导入" params="true">
+
+    <chains name="render"/>  
+    <chains name="choose"/>
+  </bean>
+  <bean name="demoImport"  class="com.tongdatech.sys.import"
+   types="excel,csv,dbf" title="测试导入2">
+
+    <chains name="render"/>  
+    <chains name="choose"/>
+  </bean>
+</import>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+ <description><![CDATA["design by xl for common UI"]]></description>
+  <display-name>Struts Tags</display-name>
+  <tlib-version>2.3</tlib-version>
+  <short-name>xl</short-name>
+  <uri>/struts-xl</uri>
+ 
+   <tag>
+    <description><![CDATA[warp tag]]></description>
+    <name>wrap</name>
+    <tag-class>com.tongdatech.sys.tag.WrapTag</tag-class>
+    <body-content>JSP</body-content>
+    <attribute>
+      <description><![CDATA[title of jsp ]]></description>
+      <name>title</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description><![CDATA[title of jsp ]]></description>
+      <name>height</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+  </tag>
+  
+  <tag>
+    <description><![CDATA[resource tag]]></description>
+    <name>resource</name>
+    <tag-class>com.tongdatech.sys.tag.ResourceTag</tag-class>
+    <body-content>JSP</body-content>
+    <attribute>
+      <description><![CDATA[simple model just include jquery]]></description>
+      <name>simple</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+  </tag>
+  
+  <tag>
+    <description><![CDATA[warp tag]]></description>
+    <name>pagination</name>
+    <tag-class>com.tongdatech.sys.tag.PaginationTag</tag-class>
+    <body-content>JSP</body-content>
+    <attribute>
+      <description><![CDATA[style of element ]]></description>
+      <name>style</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description><![CDATA[get Pagination Object ]]></description>
+      <name>value</name>
+      <required>true</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description><![CDATA[e.g 10,20,50,100 ]]></description>
+      <name>pageList</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description><![CDATA[e.g back,excel,print ]]></description>
+      <name>buttons</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description><![CDATA[e.g url of excel ]]></description>
+      <name>excel_url</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+  </tag>
+  
+  <tag>
+    <description><![CDATA[file tag]]></description>
+    <name>file</name>
+    <tag-class>com.tongdatech.sys.tag.FileInputTag</tag-class>
+    <body-content>JSP</body-content>
+    <attribute>
+      <description><![CDATA[name]]></description>
+      <name>name</name>
+      <required>true</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description><![CDATA[id]]></description>
+      <name>id</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description><![CDATA[accept MINE ]]></description>
+      <name>accept</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description><![CDATA[capture ]]></description>
+      <name>capture</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description><![CDATA[height ]]></description>
+      <name>height</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description><![CDATA[accept width ]]></description>
+      <name>width</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+  </tag>
+  
+</taglib>

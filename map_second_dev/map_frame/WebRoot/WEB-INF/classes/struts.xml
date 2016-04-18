@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+    
+<struts>
+
+
+         <!--开发者模式 -->
+         <constant name="struts.devMode" value="true"/>  
+		<constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+         <!--设置编码形式为GBK 支持生僻字--> 
+         <constant name="struts.i18n.encoding" value="GBK"/>  
+         
+         <constant name="struts.ognl.allowStaticMethodAccess" value="true"/> 
+         
+         <constant name="struts.locale" value="zh_CN"/>
+         
+         <constant name="struts.custom.i18n.resources" value="zh_CN"></constant>
+
+         <!-- 上传文件最大200M=200*1024*1024=209715200-->
+         <constant name="struts.multipart.maxSize" value="10000000000"></constant>
+         
+         <!--系统模块-->
+	     <include file="struts-configs/struts-system.xml"/> 
+
+         <!--demo模块-->
+	     <include file="struts-configs/struts-demo.xml"/> 
+	     
+	     <!--map模块-->
+	     <include file="struts-configs/struts-mapdemo.xml"/> 
+		
+</struts>

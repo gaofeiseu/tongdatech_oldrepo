@@ -1,0 +1,347 @@
+/*
+　　"\9"　例:"border:1px \9;".这里的"\9"可以区别所有IE和FireFox.
+　　"\0"　IE8识别，IE6、IE7不能.
+　　"*"　IE6、IE7可以识别.IE8、FireFox不能.
+　　"_"　IE6可以识别"_",IE7、IE8、FireFox不能. 
+*/
+ 
+
+ 
+
+html.hasFontSmoothing-false body {
+	font-family: "微软雅黑",Tahoma, Arial, Helvetica, STHeiti;
+	
+}
+
+a img,:link img,:visited img {
+	border: 0;
+}
+ 
+ul {
+	list-style: none;
+}
+
+q:before,q:after,blockquote:before,blockquote:after {
+	content: "";
+}
+
+
+
+
+
+html {
+	overflow-y: scroll;
+	height:100%;
+
+	background-color:#f0f3f5;
+	
+}
+
+.clearfix:after,#content :after {
+	content: "\20";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+#content :after {
+	height: auto;
+	height: 0\9;
+}
+
+.clearfix,#content {
+	zoom: 1;
+}
+
+.clear {
+	clear: both;
+	height: 0;
+	overflow: hidden;
+
+}
+
+.hide,.dlog-dd-title {
+	display: none;
+}
+
+h1 {
+	font-size: 16px;
+}
+
+h2,h3 {
+	font-size: 14px;
+}
+
+h4,h5,h6 {
+	font-size: 12px;
+}
+
+a,a:link,a:visited {
+	text-decoration: none;
+	color: #307DCA;
+	cursor: pointer;
+}
+
+.global-title-font {
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans",
+		'Microsoft Yahei', Tahoma;
+}
+
+body {
+	background: #EEF2FB;
+}
+hr{
+ height:1px;border:none;
+ border-top:1px solid #BBBBBB;
+ border-bottom:1px solid #FFFFFF;
+}
+.line{
+	color: #BBBBBB;
+}
+.comWrapTab{
+	width:100% ;
+	
+	border:0;
+	cellpadding:0;
+	cellspacing:0;
+	TABLE-LAYOUT: fixed;
+	
+}
+
+.comWrapTab #WrapDiv{
+	overflow-x:auto;
+	margin:5px 5px;
+	}
+.comWrapTab td#left_head{
+	height:29px;
+	width:17px;
+	background-image: url(/weblib/img/main/left_head.gif);
+	background-repeat: no-repeat;
+	
+	
+}
+
+.comWrapTab td#mid_head{
+	height:29px;
+	
+	background-image: url(/weblib/img/main/mid_head.gif);
+	background-repeat: repeat-x;
+	background-color:#f7f8f9; 
+}
+.comWrapTab td#right_head{
+	height:29px;
+	width:16px;
+	background-image: url(/weblib/img/main/right_head.gif);
+	background-repeat: no-repeat;
+}
+/**--body--**/
+.comWrapTab td#left_body{
+	width:17px;
+	background-image: url(/weblib/img/main/left_body.gif);
+	background-repeat: repeat-y;
+}
+
+.comWrapTab td#mid_body{
+    /**--text-align:center;*/
+	vertical-align:top;
+    background-color:#f7f8f9; 
+}
+.comWrapTab td#right_body{
+	width:16px;
+	background-image: url(/weblib/img/main/right_body.gif);
+	background-repeat: repeat-y;
+}
+/**--buttom---**/
+
+.comWrapTab td#left_buttom{
+	height:17px;
+	width:17px;
+	background-image: url(/weblib/img/main/left_buttom.gif);
+	background-repeat: no-repeat;
+}
+
+
+.comWrapTab td#mid_buttom
+{
+	height:17px;
+	background-image: url(/weblib/img/main/mid_buttom.gif);
+	background-repeat: repeat-x;
+}
+.comWrapTab td#right_buttom
+{
+	height:17px;
+	width:16px;
+	background-image: url(/weblib/img/main/right_buttom.gif);
+	background-repeat: no-repeat;
+}
+/**标题**/
+.comWrapTab #mid_head ul li{
+	float:left;
+}
+.comWrapTab li#l_title{
+	height:29px;
+	width:6px;
+	background-image: url(/weblib/img/main/title_left.png);
+}
+
+.comWrapTab li#m_title{
+	height:23px;
+	background-image: url(/weblib/img/main/title_body.png);
+	padding:6px 15px 0 10px;
+	font-family: "Microsoft Yahei", "微软雅黑","黑体";
+	font-size:16px;
+	/**font-weight:bold;  **/
+}
+.comWrapTab li#r_title{
+	height:29px;
+	width:5px;
+	background-image: url(/weblib/img/main/title_right.png);
+}
+
+
+/**MSG*/
+#msg{
+      color:#395A7B;
+	  font-family:"微软雅黑","黑体";
+	  text-align:center;
+	  magrin:20px 0 0 0;  
+    }
+#msg h1{
+	  font-size:80px;
+	  font-weight:bold;
+	}
+#msg dt{
+	  font-size:40px;
+	  font-weight:bold;
+	  line-height:40px;
+	  padding:0 0 40px 0;
+}
+#msg dd{
+	 font-size:14px;
+}
+
+/**fieldset*/
+fieldset {
+    padding:0px 10px 10px 10px;
+    margin:10px 0 ;
+   
+
+    color:#333; 
+    border:#aaa dashed  1px;
+} 
+legend {
+    color:#0E2D5F;
+    font-weight:800; 
+    padding:3px 6px;
+    margin:10px 30px 10px 0 ;
+}
+
+/*table*/
+table.uicopy{
+  border:solid #BBBBBB;
+  border-width:0 1px 1px 1px;
+  /**
+  border-collapse: separate;
+  */
+  color: #000000;
+  
+}
+.uicopy tr.header{
+      
+       border-color: #BBBBBB;
+       border-style: solid;
+       border-width: 0 1px;
+       cursor: default;
+       overflow: hidden;
+       height: 25px;
+}
+.uicopy tr.header td,.uicopy tr.header th{
+
+      
+       background: -webkit-linear-gradient(top,#F9F9F9 0,#efefef 100%);
+       background: -moz-linear-gradient(top,#F9F9F9 0,#efefef 100%);
+       background: -o-linear-gradient(top,#F9F9F9 0,#efefef 100%);
+       background: linear-gradient(to bottom,#F9F9F9 0,#efefef 100%);
+       background-repeat: repeat-x;
+       background-color: #efefef;
+       border-top:   #BBBBBB solid 1px;   
+       /**filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F9F9F9,endColorstr=#efefef,GradientType=0);*/
+       
+}
+.uicopy tr.header td:HOVER{
+       background: none repeat scroll 0 0 #EAF2FF;
+       color: #000000;
+       cursor: default;
+}
+.uicopy tr.title{
+       background: none repeat scroll 0 0 #EEF2FB;
+       border:solid #95B8E7 1px; 
+}
+.uicopy tr.title td{
+	   border:solid #95B8E7 1px; 
+       background-color: #E0ECFF;
+       background: -webkit-linear-gradient(top,#EFF5FF 0,#E0ECFF 100%);
+       background: -moz-linear-gradient(top,#EFF5FF 0,#E0ECFF 100%);
+       background: -o-linear-gradient(top,#EFF5FF 0,#E0ECFF 100%);
+       background: linear-gradient(to bottom,#EFF5FF 0,#E0ECFF 100%);
+       background-repeat: repeat-x;
+       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#EFF5FF,endColorstr=#E0ECFF,GradientType=0);
+             
+       color: #0E2D5F;
+       font-size: 12px;
+       font-weight: bold;
+       line-height: 18px;
+}
+
+.uicopy tr.body:HOVER{
+       background: none repeat scroll 0 0 #E0ECFF;
+}
+.uicopy tr.body:ACTIVE{
+       background: none repeat scroll 0 0 #FBEC88;
+       color: #000000;
+}
+.uicopy td{
+    border-color: #CCCCCC;
+	border-style: dotted;
+	/**
+    border-width: 1px;
+    */
+    
+    border-width: 0 1px 1px 0;
+    height: 25px;
+    font-size: 12px;
+    line-height: 18px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0 4px;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+a.file_link{
+	background: url('/weblib/img/filesave.png')  #ECEEF0 no-repeat center center;
+    border: medium none;
+    cursor: pointer;
+    display: inline;
+    overflow: hidden;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    vertical-align:bottom;
+
+}
+a:hover.file_link{
+    background-color: #eaf2ff;
+    color: #000000;
+    border: 1px solid #b7d2ff;
+    -moz-border-radius: 1px 1px 1px 1px;
+    -webkit-border-radius: 1px 1px 1px 1px;
+    border-radius: 1px 1px 1px 1px;
+}
+.file_input .file_real{
+   cursor: pointer;
+   position: relative;
+   filter: Alpha(opacity=0);
+   -moz-opacity:0;
+   opacity: 0;
+}

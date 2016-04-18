@@ -1,0 +1,82 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="business" extends="system" namespace="/">
+	 
+		<action name="visit_*" class="com.tongdatech.business.action.VisitAction" method="{1}"> 
+			<result name="init">/business/visit_query.jsp</result>
+			<result name="excel" type="chain">
+		       	<param name="actionName">excel</param>
+		       	<param name="namespace">/</param>
+		       	<param name="excelBean">${excelBean}</param>
+	        </result>
+	        <result name="download" type="stream"> 
+                <param name="inputName">inputStream</param>
+                <param name="contentDisposition">attachment;filename="${fileName}"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+		</action>
+		
+		<action name="data_class_*" class="com.tongdatech.business.action.DataClassAction" method="{1}"> 
+			<result name="init">/business/dataClassManage.jsp</result>
+			<result name="excel" type="chain">
+		       	<param name="actionName">excel</param>
+		       	<param name="namespace">/</param>
+		       	<param name="excelBean">${excelBean}</param>
+	        </result>
+		</action>
+		
+		<action name="data_manage_*" class="com.tongdatech.business.action.DataManageAction" method="{1}"> 
+			<result name="init">/business/dataManage.jsp</result>
+			<result name="success">/business/columnQuery.jsp</result>
+			<result name="excel" type="chain">
+		       	<param name="actionName">excel</param>
+		       	<param name="namespace">/</param>
+		       	<param name="excelBean">${excelBean}</param>
+	        </result>
+		</action>
+		
+		<action name="data_input_*" class="com.tongdatech.business.action.DataInputAction" method="{1}"> 
+			<result name="init">/business/dataInput.jsp</result>
+			<result name="excel" type="chain">
+		       	<param name="actionName">excel</param>
+		       	<param name="namespace">/</param>
+		       	<param name="excelBean">${excelBean}</param>
+	        </result>
+		</action>
+		<action name="cust_zc_*" class="com.tongdatech.business.action.CustZcAction" method="{1}"> 
+			<result name="init">/business/custZc.jsp</result>
+			<result name="mx_init">/business/custZcMx.jsp</result>
+			<result name="excel" type="chain">
+		       	<param name="actionName">excel</param>
+		       	<param name="namespace">/</param>
+		       	<param name="excelBean">${excelBean}</param>
+	        </result>
+		</action>
+		
+		<action name="remind_*" class="com.tongdatech.business.action.RemindAction" method="{1}"> 
+			<result name="init">/business/Remind.jsp</result>
+			<result name="d1">/business/remindDetail1.jsp</result>
+			<result name="d2">/business/remindDetail2.jsp</result>
+			<result name="d3">/business/remindDetail3.jsp</result>
+			<result name="d4">/business/remindDetail4.jsp</result>
+			<result name="d5">/business/remindDetail5.jsp</result>
+			<result name="d6">/business/remindDetail6.jsp</result>
+		</action>
+		
+		<action name="qzCust_*" class="com.tongdatech.business.action.QzCustAction" method="{1}"> 
+			<result name="init">/business/qzCust.jsp</result>
+	 
+			<result name="excel" type="chain">
+		       	<param name="actionName">excel</param>
+		       	<param name="namespace">/</param>
+		       	<param name="excelBean">${excelBean}</param>
+	        </result>
+		</action>
+		
+		
+	</package>
+</struts>
+
+ 

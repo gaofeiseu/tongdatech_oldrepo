@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+    
+<struts>
+	
+	<package name="system" extends="json-default" namespace="/">
+	    
+	  	<interceptors>			
+			<interceptor name="loginInterceptor" class="com.post.interceptor.LoginInterceptor">
+			</interceptor>
+			<interceptor name="logExceptionInterceptor" class="com.post.interceptor.ExceptionInterceptor">
+			</interceptor>		
+				
+			<interceptor-stack name="projInterceptorStack">
+			    <interceptor-ref name="logExceptionInterceptor"></interceptor-ref>
+				<interceptor-ref name="loginInterceptor"></interceptor-ref>
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+			</interceptor-stack>	
+		</interceptors>
+
+		<default-interceptor-ref name="projInterceptorStack"></default-interceptor-ref>
+		
+		
+		<global-results>
+			<result name="login">/login.jsp</result>
+			<result name="go">/sys/GO.jsp</result>
+			<result name="DBerror">/sys/DBerror.jsp</result>
+			<result name="MSG">/system/MSG.jsp</result>
+		</global-results>
+		
+	    <global-exception-mappings>
+	            <exception-mapping result="DBerror" exception="java.sql.SQLException"/>  
+        </global-exception-mappings>
+	 
+	 
+	
+	    <!-- 登陆 -->
+		<action name="login" class="com.post.struts.action.LoginAction" method="loginExecute" >
+		    <result name="success" type="redirectAction">
+		       <param name="actionName">welcome</param>
+		       <param name="namespace">/</param>
+		       <param name="brch_no">${brch_no}</param>
+		       <param name="brch_name">${brch_name}</param>
+		       <param name="role_id">${role_id}</param>
+		       <param name="role_name">${role_name}</param>
+		       <param name="brch_level">${brch_level}</param>
+		       <param name="brch_mode">${brch_mode}</param>			       
+		    </result>
+		    <result name="roles">/system/welcome/roles.jsp</result>
+			<result name="input">/login.jsp</result>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+		</action>
+		
+		<!-- 登出-->
+		<action name="loginout" class="com.post.struts.action.LoginAction" method="loginOut">
+			<result name="success">/login.jsp</result>
+		</action>
+		<!-- 注销-->
+		<action name="loginoff" class="com.post.struts.action.LoginAction" method="loginOff">
+			<result name="roles">/system/welcome/roles.jsp</result>
+		</action>
+		<!--欢迎页面-->
+		<action name="welcome" class="com.post.struts.action.WelcomeAction" method="wel">
+			<result name="success">/system/welcome/welcome.jsp</result>
+		</action>
+	
+	  <action name="download" class="com.post.struts.action.DownloadAction">  
+            <!-- 设置文件名参数，由页面上传入 -->  
+            <param name="fileName"></param>  
+            <result name="success" type="stream">  
+                <!-- 下载文件类型定义 -->  
+                <param name="contentType">application/octet-stream;charset=ISO8859-1</param>  
+                <!-- 下载文件处理方法 -->  
+                <param name="contentDisposition">  
+                    attachment;filename="${downloadChineseFileName}"  
+                </param>  
+                <!-- 下载文件输出流定义 -->  
+                <param name="inputName">downloadFile</param>  
+            </result>  
+        </action> 
+     
+	
+	
+		<!-- 角色 -->
+		<!-- 使用通配符调用多个方法,method为*对应的字符串 -->
+		<action name="role_*" class="com.post.struts.action.RoleAction" method="{1}">
+		    <result name="success">/system/role/rolegird.jsp</result>
+		    <result name="list" type="json"></result>
+		</action>
+		
+		<!-- 菜单相关 -->
+		<action name="menu_*" class="com.post.struts.action.MenuAction" method="{1}">
+		    <result name="list" type="json"></result>
+		    <result name="menus">/system/welcome/left.jsp</result>
+		</action>
+		
+		
+		<!-- jQuery 树 -->
+		<!-- 使用通配符调用多个方法,method为*对应的字符串 -->
+		<action name="jqtree_*" class="com.post.struts.action.JqTreeAction" method="{1}">
+		    <result name="list" type="json"></result>
+		</action>
+
+	    <!-- excel导出 -->
+	    <action name="excel" class="com.post.struts.action.ExcelDownloadAction">  
+            <result name="success" type="stream">  
+                <param name="contentType">application/vnd.ms-excel</param>  
+                <param name="inputName">excelStream</param>
+                <param name="contentDisposition">attachment;filename="${fileName}"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+            <result name="json" type="json"></result> 
+        </action> 
+	    
+	    <!-- 机构 -->
+		<action name="brch_*" class="com.post.struts.action.BrchAction" method="{1}">
+		    <result name="init">/system/brch/brchinit.jsp</result>
+		    <result name="detail">/system/brch/brchdetail.jsp</result>
+		    <result name="modify">/system/brch/brchmodify.jsp</result>
+		    <result name="add">/system/brch/brchadd.jsp</result>
+		    <result name="list" type="json"></result>
+		</action>
+		
+		
+		
+	   
+	</package>
+	
+</struts>

@@ -1,0 +1,65 @@
+<%@ page language="java" import="java.util.*" pageEncoding="GBK"%>
+<%@ taglib prefix="s" uri="/struts-tags"%>
+<%@ taglib prefix="xl" uri="/struts-xl"%>
+<!DOCTYPE HTML>
+<html>
+  <head>
+
+    
+  <title></title>
+  <meta http-equiv=Content-Type content=text/html;charset=gbk>  
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">  
+	<xl:resource></xl:resource>
+    <script type="text/javascript">
+    	    var query_url ="uipage_query.action";
+	    function doquery(){	
+	    var fmdata=$('#queryfm').form2json();
+        $('#data1').datagrid("options").url=query_url;
+        $('#data1').datagrid("load",fmdata);
+	    }
+	</script>
+  </head>
+  
+  <body>
+
+		
+
+			
+  
+     <div id="tb" style="padding:3px;display:none">
+		 	<form id="queryfm" style="margin:0">
+		 	colint1:<input type="text"  name="colint1"   class="easyui-validatebox" data-options="validType:'number'"/>
+		 	&nbsp;&nbsp;&nbsp;colint2:<input type="text"  name="colint2" class="easyui-validatebox" data-options="validType:'number'" />
+		 	&nbsp;&nbsp;&nbsp;colstr1:<input type="text"  name="colstr1" /> title:<input type="text"  name="title" /><br>
+		 	colstr2:<input type="text"  name="colstr2" />
+		 	coldate1:<input type="text"  name="coldate1" class="easyui-datebox" data-options="editable:false" />	
+		 	coldate2:<input type="text"  name="coldate2" class="easyui-datebox" data-options="editable:false" />		
+		 	
+		 	<a href="###" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-search'" onclick="doquery()">查询</a>
+		 	<a href="###" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-excel'" onclick="expexcel('#data1','uipage_excel')">导出</a>		 
+		 	</form>
+	 </div>
+     <table id="data1" class="easyui-datagrid" data-options="title:'easyui 分页 /demo/pagination/easyui_init.jsp',
+     	fit:true,rownumbers:true,pagination:true,toolbar:'#tb',
+     	pageSize:20,singleSelect:true">
+				<thead>
+					<tr>
+					    <th data-options="field:'sn'" width="60">sn</th>
+						<th data-options="field:'colint1'" width="60">colint1</th>
+						<th data-options="field:'colint2'" width="60">colint2</th>
+						<th data-options="field:'colstr1',align:'center'" width="70">colstr1</th>
+						<th data-options="field:'colstr2',align:'center'" width="70">colstr2</th>
+						<th data-options="field:'coldate1',align:'center'" width="120">coldate1</th>
+						<th data-options="field:'coldate2',align:'center'" width="120">coldate2</th>
+					</tr>
+				</thead>
+	</table>
+	<div style="display:none">
+      <!-- 引入excel 导出选项  -->
+      <jsp:include page="/sys/UIExcel.jsp" >
+      </jsp:include>
+      </div>
+</body>
+</html>

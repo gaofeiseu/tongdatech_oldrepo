@@ -1,0 +1,87 @@
+
+
+/**--head--**/
+td#left_head
+{
+	height:29px;
+	width:17px;
+	background-image: url(/weblib/img/main/left_head.gif);
+}
+
+td#mid_head
+{
+	height:29px;
+	
+	background-image: url(/weblib/img/main/mid_head.gif);
+}
+td#right_head
+{
+	height:29px;
+	width:16px;
+	background-image: url(/weblib/img/main/right_head.gif);
+}
+/**--body--**/
+td#left_body{
+
+	width:17px;
+	background-image: url(/weblib/img/main/left_body.gif);
+}
+
+td#mid_body{
+	text-align:left;
+	vertical-align:top;
+    background-color:#f7f8f9;
+    
+}
+td#right_body
+{
+	
+	width:16px;
+	background-image: url(/weblib/img/main/right_body.gif);
+}
+/**--buttom---**/
+
+td#left_buttom
+{
+	height:17px;
+	width:17px;
+	background-image: url(/weblib/img/main/left_buttom.gif);
+}
+
+
+td#mid_buttom
+{
+
+	
+	height:17px;
+	background-image: url(/weblib/img/main/mid_buttom.gif);
+}
+td#right_buttom
+{
+	height:17px;
+	width:16px;
+	background-image: url(/weblib/img/main/right_buttom.gif);
+}
+/**±êÌâ**/
+#mid_head ul li{
+	float:left;
+}
+li#l_title{
+	height:29px;
+	width:6px;
+	background-image: url(/weblib/img/main/title_left.png);
+}
+
+li#m_title{
+	height:23px;
+	background-image: url(/weblib/img/main/title_body.png);
+	padding:6px 15px 0 10px;
+	font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ","ºÚÌå";
+	font-size:16px;
+	/**font-weight:bold;  **/
+}
+li#r_title{
+	height:29px;
+	width:5px;
+	background-image: url(/weblib/img/main/title_right.png);
+}

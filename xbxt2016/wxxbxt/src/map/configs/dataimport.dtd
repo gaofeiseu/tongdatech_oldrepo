@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<!ELEMENT import (bean+)>
+
+<!ELEMENT bean (chains*)>
+<!ATTLIST bean
+    name  CDATA #REQUIRED
+    class CDATA #IMPLIED
+    types CDATA #IMPLIED
+    title CDATA #IMPLIED
+    params CDATA #IMPLIED
+>
+
+<!ELEMENT chains (#PCDATA)>
+<!ATTLIST chains
+    name (render|choose) #REQUIRED 
+>

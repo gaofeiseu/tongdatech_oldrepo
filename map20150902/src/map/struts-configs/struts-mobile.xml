@@ -1,0 +1,48 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="mobile" extends="json-default" namespace="/">
+	 
+	 	<interceptors>			
+			<interceptor name="paginationInterceptor" class="com.tongdatech.sys.interceptor.PaginationInterceptor">
+			</interceptor>
+				
+			<interceptor-stack name="projInterceptorStack">
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+				<interceptor-ref name="paginationInterceptor"></interceptor-ref>
+			</interceptor-stack>	
+		</interceptors>
+
+		<default-interceptor-ref name="projInterceptorStack"></default-interceptor-ref>
+		
+		<global-results>
+			<result name="login">/login.jsp</result>
+			<result name="go">/sys/GO.jsp</result>
+			<result name="DBERR">/sys/DB_ERR.jsp</result>
+			<result name="MSG">/sys/MSG.jsp</result>
+		</global-results>
+		
+	    <global-exception-mappings>
+	        <exception-mapping result="DBERR" exception="java.sql.SQLException"/>  
+        </global-exception-mappings>
+	 
+	    <action name="mobile_*" class="com.tongdatech.map_mobile.action.MobileAction" method="{1}">
+			<result name="init">/mobile_login.jsp</result>
+		</action>
+		<action name="fileop_*" class="com.tongdatech.map_mobile.action.FileOPAction" method="{1}">
+			<result name="uploadinit">/mobile_wap/file_upload.jsp</result>
+			<result name="downloadinit">/mobile_wap/file_download.jsp</result>
+			<result name="download" type="stream"> 
+                <param name="inputName">inputStream</param>
+                <param name="contentDisposition">attachment;filename="${fileName}"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+		</action>
+		<action name="mobileCheckinShow_*" class="com.tongdatech.map_mobile.action.CheckinShowAction" method="{1}">
+			<result name="init">/mobile_wap/checkin_show.jsp</result>
+		</action>
+	</package>
+</struts>
+
+ 

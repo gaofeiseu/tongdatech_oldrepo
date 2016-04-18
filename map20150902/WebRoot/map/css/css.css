@@ -1,0 +1,483 @@
+/* CSS Document */
+body {
+	/*background-color: #062810;*/
+	background-color: #f1f1f1;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size:12px;
+}
+#toprpt{
+	background-image: url(../images/bgrpt_01.png);
+	background-repeat: repeat-x;
+	width:100%;
+	height:102px;
+	margin:0px auto;}
+#top
+   {    
+	background-image: url(../images/gn_01.png);
+	background-repeat: no-repeat;
+	width:100%;
+	height:102px;
+	margin:0px auto;
+    }
+#content{
+	background-color: #f1f1f1;
+	width:100%;
+	margin:0px auto;}
+	#bottomrpt
+   {    
+	background-image: url(../images/bgrpt_03.png);
+	background-repeat: repeat-x;
+	width:100%;
+	height:25px;
+	margin:0px;
+    }
+#content2{
+	background-color: #f1f1f1;
+	width:100%;
+	margin:0px auto;}
+	#bottomrpt
+   {    
+	background-image: url(../images/bgrpt_03.png);
+	background-repeat: repeat-x;
+	width:100%;
+	height:25px;
+	margin:0px;
+    }
+#bottom
+   {
+	background-image: url(../images/gn_03.png);
+	background-repeat: no-repeat;
+	width:100%;
+	height:25px;
+	margin:0px auto;
+    }
+#cp{
+color:#FFFFFF;
+margin-top:10px;
+margin-left:20px;
+
+}
+/*top文字用*/
+#n1{
+    color:#FFFFFF;
+	float: right;
+	height: 30px;
+	width: 100%;
+	margin-top:10px;
+}
+#n2{
+	float: right;
+	height: 22px;
+	width: 900px;/*页面注意：这一值请根据菜单个数来设置，使一级菜单保证右侧对齐*/
+    margin-top:13px;
+	align:right;
+}
+.n3{
+	float: right;
+	height: 26px;
+	width: 100%;
+	background-image:url(../images/subnav_bg.jpg);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #55AC46;
+}
+.n3 span{
+	font-size: 12px;
+	line-height: 26px;
+	color: #FFFFFF;
+	text-decoration: none;
+	sdisplay: block;
+	height:14px;
+	float:left;
+}
+.n3 a{
+	font-size: 12px;
+	line-height: 26px;
+	color: #007700;
+	text-decoration: none;
+	display: block;
+	height:14px;
+	float:left;
+	height:26px;
+	padding-left:12px;
+}
+.n3 .menu2_on{
+	font-size: 12px;
+	line-height: 26px;
+	color: #ff8800;
+	text-decoration: none;
+	background-image: url(../images/arrow1.jpg);
+	background-repeat: no-repeat;
+	display:block;
+	height:14px;
+	height:26px;
+	float:left;
+	padding-left:12px;
+}
+
+/*控制TOP.HTML的导航效果样式设置*/
+
+#n2 a{
+	background:url(../images/nav.png) left 0; 
+	color:#fff; 
+	text-decoration:none; 
+	float:left; 
+	cursor:hand; 
+	margin:0px;
+	font-size:12px;
+	height:22px;
+} 
+/*
+#n2 a:hover{
+	background:url(../images/nav.png) left -22px;
+	height:22px;
+}*/
+#n2 a span{
+	background:url(../images/nav.png) right 0; 
+	padding-top:7px;
+	padding-right: 18px;
+	padding-bottom:1px;
+	padding-left: 0px;
+	margin:0 0 0 18px;
+	float:left; 
+	height:14px;
+}
+/*
+#n2 a:hover span{background:url(../images/nav.png) right -22px;
+	color:#000; 
+	padding-top:7px;
+	padding-right: 18px;
+	padding-bottom:1px;
+	padding-left: 0px;
+	margin:0 0 0 18px;
+	height:14px;
+}*/
+
+/*当前选中菜单效果*/
+#n2 a.cur1{
+	background:url(../images/nav.png) left -22px;
+	color:#fff; 
+	text-decoration:none; 
+	float:left; 
+	cursor:hand;
+	margin:0px;
+	font-size:12px;
+	height:22px;
+} 
+#n2 .cur2{
+	background:url(../images/nav.png) right -22px;
+	height:14px;
+	color:#000; 
+	text-decoration:none; 
+	float:left; 
+	padding-top:7px;
+	padding-right: 18px;
+	padding-bottom:1px;
+	padding-left: 0px;
+	margin:0 0 0 18px;
+	font-size:12px;
+}
+
+
+/*导航效果完毕*/
+
+#logintop {
+	background-image: url(../images/login_01.png);
+	margin: 0px auto;
+	padding: 0px;
+	height: 527px;
+	width: 1000px;
+}
+#loginbottom {
+	background-image: url(../images/login_02.png);
+	margin: 0px auto;
+	padding: 0px;
+	height: 73px;
+	background-repeat: repeat-x;
+}
+input {
+ 
+	border: 1px solid #006633;
+}
+select {
+ 
+	border: 1px solid #009933;
+}
+radio {
+	background-color:#EAFEE9;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.ckbox1{
+    background-color:#4BAF4B;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.ckbox2{
+    background-color:#EAFEE9;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+.longinftb{color:#FFFFFF;}
+/*功能 钮*/
+ a.c1bt{
+	background-image: url(../images/bt1.jpg);
+	background-repeat: no-repeat;
+	height: 25px;
+	width: 91px;
+	display:block;
+	float:left;
+}
+/*链接效果*/
+.fy{
+	background-color: #DCFADD;
+	height: 24px;
+	width: 60px;
+	border: 1px solid #009933;
+	color:#006600;
+	margin:1px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	text-decoration: none;
+}
+.abai{
+color:#ffffff;
+	text-decoration: none;
+}
+/*con2效果使用*/
+#cleft{
+	padding: 10px;
+	float: left;
+	width: 200px;
+	height:440px;
+}#cright{
+	padding: 10px;
+	float: right;
+	width;100%;
+}
+#subnav{
+display:block;
+	width:180px;
+	height:23px;
+	padding:0px;
+	margin:0px;
+	color:#FFFFFF;
+	padding-top:20px;
+	padding-left:50px;
+	list-style-type: none;
+	background-image: url(../images/subnav_01.png);
+}
+#subnav1{
+display:block;
+width:180px;
+margin:0px;
+list-style-type: none;	
+}
+#subnav1 li{
+display:block;
+float:right;	
+font-size:12px;
+margin:0px;
+padding:0px;
+}
+#subnav1 a{
+	background-image: url(../images/subnav_02.png);
+	width:180px;
+	line-height: 33px;
+	display:block;
+	margin:0px;
+	padding-left:50px;
+	color:#ffffff;
+	text-decoration: none;
+	
+	}
+#subnav1 a:hover{
+background-image: url(../images/subnav2_02.png);
+color:#003300;
+
+}
+
+
+
+
+/*con1.html用*/
+#sub1{
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	height: 25px;
+	width: 100%;
+}
+#sub1 li{
+	float:left;
+	padding: 5px;
+	height: 25px;
+	width: 91px;
+	display:block;
+}
+#sub1 a{
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-image: url(../images/bt1.jpg);
+	background-repeat: no-repeat;
+	height: 18px;
+	width: 67px;
+	padding-top:7px;
+	padding-left:24px;
+	display:block;
+}
+#sub1 a:hover{
+	background-image: url(../images/bt2.jpg);
+}
+
+/*内容标签效果控制部分*/
+.title_bq{
+	background-image: url(../images/listtt.jpg);
+	background-repeat: repeat-x;
+	height: 23px;
+	width: 98%;
+	azimuth:center;
+	display:block;
+	margin: 0px;
+	padding: 0px;	
+}
+#bq li{
+	float: left;
+	height: 23px;
+	width: 120px;
+	list-style-type: none;
+}
+.title_off{
+	float: left;
+	height: 23px;
+	width: 120px;
+	list-style-type: none;
+	font-size: 12px;
+	font-weight: bold;
+	color: #006600;
+	text-decoration: none;
+	background-image: url(../images/listtt.jpg);
+	background-repeat: repeat-x;
+	padding-top:5px;
+	padding-left:20px;
+	cursor: hand;
+}
+.title_on{
+	float: left;
+	height: 23px;
+	width: 120px;
+	list-style-type: none;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+	background-image: url(../images/listtt4.jpg);
+	background-repeat: repeat-x;
+	padding-top:5px;
+	padding-left:20px;
+	cursor: hand;
+}
+
+.condit{
+	margin-top:10px;
+	background-color:#d3d3d3;
+	font-size: 12px;
+}
+.condit th{
+	text-align:left;
+	background:url(../images/listtt.jpg);
+	background-color:#F1F1F1;
+	height:22px;
+}
+.condit tr{
+	background-color:#ffffff;
+}
+.keys{
+	cellspacing:1;
+	cellpadding:10;
+	font-size: 12px;
+}
+.dataTable{
+	margin-top:10px;
+	background-color:#d3d3d3;
+	font-size: 12px;
+}
+.dataTable th{
+	text-align:left;
+	background:url(../images/listtt.jpg);
+	background-color:#F1F1F1;
+	height:22px;
+}
+.dataTable .title{
+	text-align:center;
+	background-color:84F97D;
+}
+.dataTable .tr1{
+	background-color:#ffffff;
+}
+.dataTable .tr2{
+	background-color:#95b8e7;
+}
+.button {
+	FONT-WEIGHT: lighter;
+	VERTICAL-ALIGN: top;
+	WIDTH: 95px;
+	CURSOR: pointer;
+	COLOR: #FFFFFF;
+	HEIGHT: 25px;
+	font-size: 12px;
+	border: thin none;
+	background-color: #95b8e7;
+
+	background-repeat: no-repeat;
+	background-position: 0px 0px;	
+}
+.button00 {
+	FONT-WEIGHT: lighter;
+	VERTICAL-ALIGN: top;
+	WIDTH: 95px;
+	CURSOR: pointer;
+	COLOR: #FFFFFF;
+	HEIGHT: 25px;
+	font-size: 12px;
+	border: thin none;
+	background-color: #95b8e7;
+
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+.dataTable1{
+	text-align:center;
+	background-color:#317720;
+	font-size: 12px;
+	border-top:1px solid #d5e5fa;
+	border-left:1px solid #d5e5fa;
+}
+.dataTable1 td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height:26px;
+	border-right:1px solid #d5e5fa;
+	border-bottom:1px solid #d5e5fa;
+	white-space: nowrap;
+}
+.dataTable1 tr{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height:26px;
+	border-right:1px solid #d5e5fa;
+	border-bottom:1px solid #d5e5fa;
+}
+

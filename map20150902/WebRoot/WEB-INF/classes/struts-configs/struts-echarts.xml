@@ -1,0 +1,23 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="echarts" extends="system" namespace="/">
+	 
+	    <action name="echarts_demo_*" class="com.tongdatech.echarts_front.action.EchartsDemoAction" method="{1}">
+			<result name="init">/echarts/jsp/zhanbi.jsp</result>
+			<result name="init2">/echarts/jsp/demo2.jsp</result>
+			<result name="init3">/echarts/jsp/demo3.jsp</result>
+			<result name="init4">/echarts/jsp/demo4.jsp</result>
+			<result name="init5">/echarts/jsp/demo5.jsp</result>
+			<result name="init6">/echarts/jsp/demo6.jsp</result>
+			<result name="init7">/echarts/jsp/demo7.jsp</result>
+			<result name="init8">/echarts/jsp/demo8.jsp</result>
+			<result name="init9">/echarts/jsp/demo9.jsp</result>
+		</action>
+		
+		
+	</package>
+</struts>
+
+ 

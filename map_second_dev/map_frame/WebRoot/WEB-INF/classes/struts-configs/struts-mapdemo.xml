@@ -1,0 +1,11 @@
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN" "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="mapdemo" extends="system" namespace="/">
+	
+		<action name="mapdemo_*" class="com.tongdatech.map_demo.action.MapDemoAction" method="{1}">
+			<result name="init_demo">/map_demo/map_demo.jsp</result>
+			<result name="init_doc">/map_demo/map_doc.jsp</result>
+		</action>
+		
+	</package>
+</struts>

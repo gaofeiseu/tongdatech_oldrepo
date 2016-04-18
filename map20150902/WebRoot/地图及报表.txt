@@ -1,0 +1,72 @@
+地图系统
+
+1、速度及复选框问题已解决。
+
+2、web端配置文件
+
+/src/map/service.properties 修改webservice地址，ftp路径（需要和安卓对应）
+
+/WebRoot/map/mapjs/map_config.js 修改地图层级
+
+/WebRoot/map/mapjs/mapmain.js 修改地图中心
+
+3、手机端配置文件
+
+/assets/appConfig.properties  修改ip地址，图片路径
+
+4、数据库
+
+①表t_sys_r_menu_a
+
+begin
+	truncate table t_sys_r_menu_a;
+	proc_t();
+end;
+
+②机构表 t_sys_brch：
+
+toad导入（必须有brch_no,brch_up,brch_name,brch_mode）;
+
+update t_sys_brch set brch_code=brch_no;
+
+给机构更新area_no(必须，与用户中心点相关；数据可查看表t_sys_area，自行选择正确数据)
+
+找出最大机构号，重建索引seq_t_sys_brch。
+
+
+③用户表 t_sys_user
+
+创建临时表，并toad导入（必须有user_name,brch_no）;
+
+insert into t_sys_user(user_id,user_name,nick_name,brch_no) select SEQ_T_SYS_USER.nextval,user_name,user_name,brch_no from 临时表;
+
+设置目前为空的字段与admin用户一样：update t_sys_user set xxxx  where user_id=1;
+
+
+④用户绑定角色t_sys_r_user_br
+
+insert into (sn,user_id,brch_no,role_id) select SEQ_T_SYS_R_USER_BR.nextval,user_id,brch_no,'角色编号' from t_sys_user where  具体条件;(已有角色信息可从t_sys_role中查看)
+
+
+网点转型系统：
+
+
+1、库表
+t_cell_info 每填一张报表，有一条记录，主键cell_id
+t_cell_data 外键cell_id,表中记录每一张报表的详细记录（包含x,y坐标以及内容）
+t_cell_num 统计表，记录每天每个机构每种报表填写数量。
+t_cell_type 报表类型表，包含设计文件路径、填写类型、行数、列数。
+
+2、java程序
+
+action下cell目录
+bean下cell目录
+service下cell目录
+dao下cell目录
+
+3、jsp
+
+/WebRoot/et目录下
+
+
+

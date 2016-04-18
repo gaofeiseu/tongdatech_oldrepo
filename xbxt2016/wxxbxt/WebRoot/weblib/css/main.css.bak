@@ -1,0 +1,209 @@
+/*
+　　"\9"　例:"border:1px \9;".这里的"\9"可以区别所有IE和FireFox.
+　　"\0"　IE8识别，IE6、IE7不能.
+　　"*"　IE6、IE7可以识别.IE8、FireFox不能.
+　　"_"　IE6可以识别"_",IE7、IE8、FireFox不能. 
+*/
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,a,code,em,img,q,small,strong,dd,dl,dt,li,ol,ul,fieldset,form,label,table,tbody,tr,th,td,input
+	{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 12px;
+	font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, sans-serif,
+		STHeiti;
+	_font-family: "微软雅黑",Tahoma, Arial, Helvetica, STHeiti;
+	cursor: default;
+}
+
+html.hasFontSmoothing-false body {
+	font-family: "微软雅黑",Tahoma, Arial, Helvetica, STHeiti;
+}
+
+a img,:link img,:visited img {
+	border: 0;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+ul {
+	list-style: none;
+}
+
+q:before,q:after,blockquote:before,blockquote:after {
+	content: "";
+}
+
+
+
+
+
+html {
+	overflow-y: scroll;
+}
+
+.clearfix:after,#content :after {
+	content: "\20";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+#content :after {
+	height: auto;
+	height: 0\9;
+}
+
+.clearfix,#content {
+	zoom: 1;
+}
+
+.clear {
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+
+.hide,.dlog-dd-title {
+	display: none;
+}
+
+h1 {
+	font-size: 16px;
+}
+
+h2,h3 {
+	font-size: 14px;
+}
+
+h4,h5,h6 {
+	font-size: 12px;
+}
+
+a,a:link,a:visited {
+	text-decoration: none;
+	color: #307DCA;
+	cursor: pointer;
+}
+
+.global-title-font {
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans",
+		'Microsoft Yahei', Tahoma;
+}
+
+body {
+	background: #EEF2FB;
+}
+
+.comWrapTab{
+	width:100% ;
+	height:100% ;
+	border:0;
+	cellpadding:0;
+	cellspacing:0;
+}  
+.comWrapTab #WrapDiv{
+	margin:30px 20px;
+	}
+.comWrapTab td#left_head{
+	height:29px;
+	width:17px;
+	background-image: url(/weblib/img/main/left_head.gif);
+}
+
+.comWrapTab td#mid_head{
+	height:29px;
+	
+	background-image: url(/weblib/img/main/mid_head.gif);
+}
+.comWrapTab td#right_head{
+	height:29px;
+	width:16px;
+	background-image: url(/weblib/img/main/right_head.gif);
+}
+/**--body--**/
+.comWrapTab td#left_body{
+	width:17px;
+	background-image: url(/weblib/img/main/left_body.gif);
+}
+
+.comWrapTab td#mid_body{
+
+	vertical-align:top;
+    background-color:#f7f8f9; 
+}
+.comWrapTab td#right_body{
+	width:16px;
+	background-image: url(/weblib/img/main/right_body.gif);
+}
+/**--buttom---**/
+
+.comWrapTab td#left_buttom{
+	height:17px;
+	width:17px;
+	background-image: url(/weblib/img/main/left_buttom.gif);
+}
+
+
+.comWrapTab td#mid_buttom
+{
+	height:17px;
+	background-image: url(/weblib/img/main/mid_buttom.gif);
+}
+.comWrapTab td#right_buttom
+{
+	height:17px;
+	width:16px;
+	background-image: url(/weblib/img/main/right_buttom.gif);
+}
+/**标题**/
+.comWrapTab #mid_head ul li{
+	float:left;
+}
+.comWrapTab li#l_title{
+	height:29px;
+	width:6px;
+	background-image: url(/weblib/img/main/title_left.png);
+}
+
+.comWrapTab li#m_title{
+	height:23px;
+	background-image: url(/weblib/img/main/title_body.png);
+	padding:6px 15px 0 10px;
+	font-family: "Microsoft Yahei", "微软雅黑","黑体";
+	font-size:16px;
+	/**font-weight:bold;  **/
+}
+.comWrapTab li#r_title{
+	height:29px;
+	width:5px;
+	background-image: url(/weblib/img/main/title_right.png);
+}
+
+
+/**MSG*/
+#msg{
+      color:#395A7B;
+	  font-family:"微软雅黑","黑体";
+	  text-align:center;
+	  magrin:20px 0 0 0;  
+    }
+#msg h1{
+	  font-size:80px;
+	  font-weight:bold;
+	}
+#msg dt{
+	  font-size:40px;
+	  font-weight:bold;
+	  line-height:40px;
+	  padding:0 0 40px 0;
+}
+#msg dd{
+	 font-size:14px;
+	}

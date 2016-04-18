@@ -1,0 +1,71 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+    
+<struts>
+	
+	
+	
+	<package name="demo" extends="system" namespace="/">
+	
+		<action name="uipage_*" class="com.tongdatech.sys.demo.action.EasyUIPaginationAction" method="{1}">
+			<result name="init">/demo/pagination/easyui_init.jsp</result>
+			<result name="excel" type="chain">
+		       <param name="actionName">excel</param>
+		       <param name="namespace">/</param>
+		       <param name="excelBean">${excelBean}</param>
+	        </result>
+		</action>
+		
+		<action name="ljiadd_*" class="com.tongdatech.sys.demo.action.LjiAddAction" method="{1}">
+			<result name="init">/demo/ljiadd.jsp</result>
+		</action>
+		
+		<action name="demopage_*" class="com.tongdatech.sys.demo.action.DemoPaginationAction" method="{1}">
+			<result name="init">/demo/pagination/demoPage_init.jsp</result>
+			<result name="list">/demo/pagination/demoPage_list.jsp</result>
+			<result name="excel" type="chain">
+		       <param name="actionName">excel</param>
+		       <param name="namespace">/</param>
+		       <param name="excelBean">${excelBean}</param>
+	        </result>
+		</action>
+		
+		<action name="demoControl_*" class="com.tongdatech.sys.demo.action.DemoControlAction" method="{1}">
+			<result name="tree">/demo/control/demoUITree.jsp</result>
+			<result name="combo">/demo/control/demoUICombo.jsp</result>
+			<result name="combogrid">/demo/control/demoUICombogrid.jsp</result>
+			<result name="paramSel">/demo/control/demoParamSel.jsp</result>
+			<result name="jstest">/demo/control/demoJstest.jsp</result>
+		</action>
+
+	   <action name="dataDict_*" class="com.tongdatech.sys.demo.action.DataDictAction" method="{1}">
+			<result name="init">/demo/dataDict.jsp</result>
+			<result name="excel" type="chain">
+		       <param name="actionName">excel</param>
+		       <param name="namespace">/</param>
+		       <param name="excelBean">${excelBean}</param>
+	        </result>
+		</action>
+		<action name="demoUpload_*" class="com.tongdatech.sys.demo.action.DemoFileUploadAction" method="{1}">
+			<result name="input">/demo/file/demoUpload.jsp</result>
+			<interceptor-ref name="defaultStack">
+				<!--可以支持上传的文件类型 -->
+	
+				<param name="fileUpload.maximumSize">100000000</param>
+			</interceptor-ref>
+		</action>
+		
+		<action name="demoDownload_*" class="com.tongdatech.sys.demo.action.DemoFileDownloadAction" method="{1}">
+		    <result name="list">/demo/file/demoDownloadList.jsp</result>
+		    <result name="download" type="stream"> 
+                <param name="inputName">inputStream</param>
+                <param name="contentDisposition">attachment;filename="${file_name}"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+		</action>
+	    
+		
+	</package>
+	
+</struts>

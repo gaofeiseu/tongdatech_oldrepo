@@ -1,0 +1,16 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="question" extends="system" namespace="/">
+	
+	    <action name="faq_*" class="com.tongdatech.question.action.QuestionAction" method="{1}">
+			<result name="init">/question/reportAndCheck.jsp</result>
+			<result name="init2">/question/answer.jsp</result>
+			<result name="init3">/question/search.jsp</result>
+		</action>
+		
+	</package>
+</struts>
+
+ 

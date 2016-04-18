@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+    
+<struts>
+	
+	<package name="system" extends="json-default" namespace="/">
+	     
+	  	<interceptors>			
+			<interceptor name="loginInterceptor" class="com.tongdatech.sys.interceptor.LoginInterceptor">
+			</interceptor>
+			<interceptor name="paginationInterceptor" class="com.tongdatech.sys.interceptor.PaginationInterceptor">
+			</interceptor>
+			<interceptor name="logExceptionInterceptor" class="com.tongdatech.sys.interceptor.ExceptionInterceptor">
+			</interceptor>		
+			<interceptor name="requestParameterFilterInterceptor" class="com.tongdatech.sys.interceptor.RequestParameterFilterInterceptor">
+			</interceptor>
+			
+			<interceptor-stack name="projInterceptorStack">
+			    <interceptor-ref name="loginInterceptor"></interceptor-ref>
+			    <interceptor-ref name="logExceptionInterceptor"></interceptor-ref>
+			    
+				<interceptor-ref name="exception"/>
+                <interceptor-ref name="alias"/>
+                <interceptor-ref name="servletConfig"/>
+                <interceptor-ref name="i18n"/>
+                <interceptor-ref name="prepare"/>
+                <interceptor-ref name="chain"/>
+                <interceptor-ref name="requestParameterFilterInterceptor"></interceptor-ref>
+                <interceptor-ref name="scopedModelDriven"/>
+                <interceptor-ref name="modelDriven"/>
+                <interceptor-ref name="fileUpload"/>
+                <interceptor-ref name="checkbox"/>
+                <interceptor-ref name="datetime"/>
+                <interceptor-ref name="multiselect"/>
+                <interceptor-ref name="staticParams"/>
+                <interceptor-ref name="actionMappingParams"/>
+                <interceptor-ref name="params">
+                    <param name="excludeParams">^action:.*,^method:.*</param>
+                </interceptor-ref>
+                <interceptor-ref name="conversionError"/>
+                <interceptor-ref name="validation">
+                    <param name="excludeMethods">input,back,cancel,browse</param>
+                </interceptor-ref>
+                <interceptor-ref name="workflow">
+                    <param name="excludeMethods">input,back,cancel,browse</param>
+                </interceptor-ref>
+                <interceptor-ref name="debugging"/>
+                <interceptor-ref name="deprecation"/>
+				<interceptor-ref name="paginationInterceptor"></interceptor-ref>
+			</interceptor-stack>	
+		</interceptors>
+
+		<default-interceptor-ref name="projInterceptorStack"></default-interceptor-ref>
+		
+		
+		<global-results>
+			<result name="login">/login.jsp</result>
+			<result name="go">/sys/GO.jsp</result>
+			<result name="DBERR">/sys/DB_ERR.jsp</result>
+			<result name="MSG">/sys/MSG.jsp</result>
+		</global-results>
+		
+	    <global-exception-mappings>
+	            <exception-mapping result="DBERR" exception="java.sql.SQLException"/>  
+        </global-exception-mappings>
+	 
+	 
+	
+	    <!-- 登录 -->
+		<action name="login" class="com.tongdatech.sys.action.LoginAction" method="loginExecute" >		    
+		    <result name="roles">/sys/welcome/roles.jsp</result>
+			<result name="input">/login.jsp</result>
+			<result name="success">/sys/welcome/welcome.jsp</result>
+			
+			<interceptor-ref name="defaultStack"></interceptor-ref>	
+		</action>
+		
+		<action name="loginout" class="com.tongdatech.sys.action.LoginAction" method="loginOut">
+		     <interceptor-ref name="loginInterceptor"></interceptor-ref>
+		     <interceptor-ref name="defaultStack"></interceptor-ref>
+		</action>
+	
+		<action name="loginoff" class="com.tongdatech.sys.action.LoginAction" method="loginOff">
+			<result name="roles">/sys/welcome/roles.jsp</result>
+			<interceptor-ref name="loginInterceptor"></interceptor-ref>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+		</action>
+  
+  
+		<!--欢迎页面-->
+		<action name="welcome" class="com.tongdatech.sys.action.WelcomeAction" method="wel">
+			<result name="success">/sys/welcome/welcome.jsp</result>
+		</action>
+		<action name="wel_*" class="com.tongdatech.sys.action.WelcomeAction" method="{1}">
+			<result name="head">/sys/welcome/head.jsp</result>
+			<result name="main">/sys/welcome/main.jsp</result>
+			<result name="tabs">/sys/welcome/tabs.jsp</result>
+		</action>
+		
+		
+		<!-- 菜单相关 -->
+		<action name="menu_*" class="com.tongdatech.sys.action.MenuAction" method="{1}">
+		    <result name="init">/sys/welcome/menu.jsp</result>
+		    <result name="conf">/sys/menu/menu_conf.jsp</result>
+		</action>
+		
+		<action name="menuarea_*" class="com.tongdatech.sys.action.MenuAreaAction" method="{1}">
+			<result name="area">/sys/menu/menuarea.jsp</result>
+			<result name="excel" type="chain">
+		       <param name="actionName">excel</param>
+		       <param name="namespace">/</param>
+		       <param name="excelBean">${excelBean}</param>
+	        </result>
+		</action>
+		
+		<action name="menurole_*" class="com.tongdatech.sys.action.MenuRoleAction" method="{1}">
+			<result name="role">/sys/menu/menurole.jsp</result>
+			<result name="excel" type="chain">
+		       <param name="actionName">excel</param>
+		       <param name="namespace">/</param>
+		       <param name="excelBean">${excelBean}</param>
+	        </result>
+		</action>
+		
+		
+		<!-- 参数设置相关 -->
+		<action name="param_*" class="com.tongdatech.sys.action.ParamAction" method="{1}">
+		    <result name="init">/sys/param/param_init.jsp</result>
+		</action>
+		
+		<!-- EXCEL导出 -->
+	    <action name="excel" class="com.tongdatech.sys.action.ExcelDownloadAction">  
+            <result name="success" type="stream">  
+                <param name="contentType">application/vnd.ms-excel</param>  
+                <param name="inputName">excelStream</param>
+                <param name="contentDisposition">attachment;filename="${fileName}"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+            <result name="json" type="json"></result> 
+        </action> 
+        
+        <!-- 树相关 -->
+		<action name="tree_*" class="com.tongdatech.sys.action.TreeAction" method="{1}">
+		</action>
+		
+		<!-- 角色相关 -->
+		<action name="role_*" class="com.tongdatech.sys.action.RoleAction" method="{1}">
+			<result name="init">/sys/role_init.jsp</result>
+		</action>
+
+
+		<!-- 搜索相关 -->
+		<action name="search_*" class="com.tongdatech.sys.action.SearchAction" method="{1}">
+		</action>
+	   
+	    <!-- 机构 -->
+
+		<action name="brch_*" class="com.tongdatech.sys.action.BrchAction" method="{1}">
+			<result name="init">/sys/brch/brch_init.jsp</result>
+		</action>
+		<!-- 用户 -->
+	   	<action name="user_*" class="com.tongdatech.sys.action.UserAction" method="{1}">
+	   		<result name="init">/sys/user/user_init.jsp</result>
+	   		<result name="pwd">/sys/user/pwd_change.jsp</result>
+	   		<result name="excel" type="chain">
+		       <param name="actionName">excel</param>
+		       <param name="namespace">/</param>
+		       <param name="excelBean">${excelBean}</param>
+	        </result>
+		</action>
+		
+		<action name="test_*" class="com.tongdatech.sys.demo.action.TestAction" method="{1}">
+			<result name="test">/demo/test.jsp</result>
+		</action>
+		
+		<!-- 测试导入 -->
+		<action name="imp_*" class="com.tongdatech.tools.dataimport.action.DemoImportAction" method="{1}">
+			<result name="init">/sys/tools/demoimport/demoimport_init.jsp</result>
+		</action>
+		
+		<!-- 导入 -->
+		<action name="import_*" class="com.tongdatech.tools.dataimport.action.DataImportAction" method="{1}">
+	   		<result name="init">/sys/tools/dataimport/dataimport_init.jsp</result>
+	   		<result name="params">/sys/tools/dataimport/dataimport_params.jsp</result>
+	   		<result name="render">/sys/tools/dataimport/dataimport_render.jsp</result>
+	   		<result name="choose">/sys/tools/dataimport/dataimport_choose.jsp</result>
+		</action>
+		
+		<!-- 用户配置 -->
+	   	<action name="userinfo_*" class="com.tongdatech.sys.action.UserConfigAction" method="{1}">
+	   		<result name="test">/demo/UserInfo/UserConfig.jsp</result>
+		</action>
+		<!-- 菜单——IP -->
+	   	<action name="menuip_*" class="com.tongdatech.sys.action.MenuIpAction" method="{1}">
+	   		<result name="init">/sys/menu/menuip_init.jsp</result>
+		</action>
+		
+	</package>
+	
+</struts>

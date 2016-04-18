@@ -1,0 +1,1481 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Created>1996-12-17T01:32:42Z</Created>
+  <LastSaved>2016-03-14T06:30:53Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <RemovePersonalInformation/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>4530</WindowHeight>
+  <WindowWidth>8505</WindowWidth>
+  <WindowTopX>480</WindowTopX>
+  <WindowTopY>120</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m144721236">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="12"/>
+  </Style>
+  <Style ss:ID="m93311220">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="DiagonalLeft" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="12"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="28"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="12"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="12"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="12"/>
+  </Style>
+  <Style ss:ID="s91">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="12"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s92">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="12"/>
+  </Style>
+  <Style ss:ID="s93">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="12"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="客户用邮情况简表">
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="125" x:FullColumns="1" 
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="17.25">
+   <Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="100"/>
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="150"/>
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="150"/>
+   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="150"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="150"/>
+   <Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="150"/>
+   <Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="100"/>
+   <Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="150"/>
+   <Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="150"/>
+   <Row ss:Height="40.5">
+    <Cell ss:MergeAcross="8" ss:StyleID="s62"><Data ss:Type="String">客户用邮情况简表</Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+	<Cell ss:StyleID="s64"><Data ss:Type="String">大客户号</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">客户名</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">路向</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">上月发件量</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">上上月发件量</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">判定条件一</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">判定条件二</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">归属客户经理</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">归属客户经理号(百分之)</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020104185000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡名卓文化用品有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">北京</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">105</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">宗宁</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800038</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020104185000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡名卓文化用品有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">内蒙</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">39</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">宗宁</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800038</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020104185000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡名卓文化用品有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">新疆</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">14</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">43</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">宗宁</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800038</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020104983000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡利民摩配市场</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">福建</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">18</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">45</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">蔡欣其</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800047</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020104983000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡利民摩配市场</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">河南</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">38</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">蔡欣其</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800047</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020104983000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡利民摩配市场</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">湖北</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">37</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">蔡欣其</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800047</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020104983000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡利民摩配市场</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">四川</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">39</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">蔡欣其</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800047</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020105008000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡可易得自动售货系统科技有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">福建</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">38</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">宗宁</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800038</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020105008000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡可易得自动售货系统科技有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">广东</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">40</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">宗宁</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800038</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020105008000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡可易得自动售货系统科技有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">湖北</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">41</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">宗宁</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800038</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020105008000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡可易得自动售货系统科技有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">吉林</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">39</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">宗宁</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800038</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020105008000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡可易得自动售货系统科技有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">辽宁</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">15</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">81</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">宗宁</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800038</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020105008000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡可易得自动售货系统科技有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">陕西</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">35</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">宗宁</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800038</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020105008000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡可易得自动售货系统科技有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">四川</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">21</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">62</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">宗宁</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800038</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020106230000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">劝业市场</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">广东</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">33</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">108</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020106230000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">劝业市场</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">广西</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">26</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020106230000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">劝业市场</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">河南</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">17</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">53</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020106230000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">劝业市场</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">湖北</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">18</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">57</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020106230000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">劝业市场</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">浙江</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">21</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">53</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020106275000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">小高商贸</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">福建</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">35</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020106275000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">小高商贸</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">河南</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">46</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020106275000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">小高商贸</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">新疆</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">47</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020108276000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡金环球物流有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">甘肃</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">34</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">宗宁</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800038</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020108276000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡金环球物流有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">河南</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">56</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">宗宁</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800038</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020108385000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">维艾</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">北京</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">29</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">102</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020108385000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">维艾</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">福建</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">24</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">64</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020108385000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">维艾</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">甘肃</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">18</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">57</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020108385000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">维艾</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">广东</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">30</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">104</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020108385000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">维艾</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">河北</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">66</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020108385000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">维艾</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">河南</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">87</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020108385000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">维艾</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">黑龙</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">14</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">75</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020108385000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">维艾</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">湖北</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">53</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020108385000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">维艾</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">湖南</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">104</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020108385000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">维艾</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">辽宁</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">31</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020108385000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">维艾</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">内蒙</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">19</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">58</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020108385000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">维艾</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">宁夏</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">34</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020108385000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">维艾</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">山东</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">27</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">156</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020108385000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">维艾</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">山西</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">55</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020108385000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">维艾</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">四川</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">18</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">126</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020108385000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">维艾</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">天津</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">64</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020108385000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">维艾</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">新疆</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">22</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">64</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32020108385000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">维艾</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">重庆</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">23</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">76</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">黄健</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800093</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028108266001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴暖语阁商贸有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">广西</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">22</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">88</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028108266001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴暖语阁商贸有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">贵州</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">16</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">37</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028108266001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴暖语阁商贸有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江苏</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">24</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">79</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028110704000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">爱尔兔旗舰店</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">四川</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">40</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">王标</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500000</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028110726000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市吉晖贸易有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">广西</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">38</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028110726000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市吉晖贸易有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">贵州</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">25</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028110726000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市吉晖贸易有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">四川</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">37</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028110727000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市美曼家居用品有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">甘肃</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028110727000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市美曼家居用品有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">广东</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">30</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028110727000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市美曼家居用品有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">河南</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">35</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028110727000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市美曼家居用品有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">新疆</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">16</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">37</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028110728000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市喜尔乐商贸有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">广东</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">23</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">71</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028110731000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市兴特纺织品贸易有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">福建</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">25</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028110731000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市兴特纺织品贸易有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">贵州</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">35</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028110731000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市兴特纺织品贸易有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">云南</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">44</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028110783000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">正德人寿保险股份有限公司无锡中心支公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">广西</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">23</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">67</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">无锡电子商务营销团队</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">T1000001121</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028110783000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">正德人寿保险股份有限公司无锡中心支公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">贵州</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">14</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">38</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">无锡电子商务营销团队</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">T1000001121</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028110783000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">正德人寿保险股份有限公司无锡中心支公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江西</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">19</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">48</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">无锡电子商务营销团队</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">T1000001121</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111125000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">万家红服饰</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">广西</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">26</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">67</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">王标</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500000</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111125000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">万家红服饰</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">河南</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">48</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">王标</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500000</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111125000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">万家红服饰</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">内蒙</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">20</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">47</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">王标</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500000</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111125000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">万家红服饰</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">山东</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">15</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">36</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">王标</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500000</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111125000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">万家红服饰</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">陕西</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">19</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">66</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">王标</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500000</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111125000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">万家红服饰</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">四川</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">39</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">王标</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500000</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111130000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市迎诚电子商务有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">福建</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">59</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">143</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111130000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市迎诚电子商务有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">甘肃</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">137</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111130000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市迎诚电子商务有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">广西</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">38</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">179</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111130000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市迎诚电子商务有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">贵州</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">14</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">156</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111130000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市迎诚电子商务有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">海南</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">202</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111130000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市迎诚电子商务有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">河南</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">31</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">97</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111130000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市迎诚电子商务有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">黑龙</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">37</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111130000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市迎诚电子商务有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">湖北</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">44</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111130000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市迎诚电子商务有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">内蒙</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">119</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111130000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市迎诚电子商务有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">宁夏</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">36</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111130000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市迎诚电子商务有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">青海</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">35</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111130000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市迎诚电子商务有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">山东</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">18</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">46</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111130000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市迎诚电子商务有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">陕西</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">51</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111130000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市迎诚电子商务有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">四川</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">49</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">124</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111130000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市迎诚电子商务有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">西藏</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">27</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111130000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市迎诚电子商务有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">新疆</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">124</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32028111130000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江阴市迎诚电子商务有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">云南</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">16</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">110</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">孙炜</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21446500018</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000203094</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">张闯园艺</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">山东</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">35</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">陈庆华</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21418101001</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000253303</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">红学商贸</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江苏</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">67</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">292</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">陈敏洁</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21403400022</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000285971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">好佳美</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">北京</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">14</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">73</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">徐园</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800035</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000285971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">好佳美</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">福建</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">28</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">82</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">徐园</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800035</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000285971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">好佳美</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">广东</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">42</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">176</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">徐园</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800035</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000285971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">好佳美</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">广西</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">61</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">徐园</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800035</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000285971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">好佳美</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">贵州</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">36</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">徐园</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800035</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000285971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">好佳美</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">海南</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">33</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">徐园</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800035</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000285971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">好佳美</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">河北</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">17</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">88</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">徐园</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800035</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000285971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">好佳美</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">河南</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">15</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">91</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">徐园</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800035</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000285971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">好佳美</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">黑龙</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">44</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">徐园</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800035</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000285971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">好佳美</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">湖北</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">68</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">徐园</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800035</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000285971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">好佳美</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">湖南</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">20</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">57</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">徐园</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800035</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000285971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">好佳美</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">吉林</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">徐园</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800035</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000285971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">好佳美</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江西</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">42</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">徐园</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800035</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000285971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">好佳美</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">辽宁</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">19</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">61</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">徐园</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800035</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000285971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">好佳美</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">内蒙</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">26</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">徐园</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800035</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000285971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">好佳美</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">山东</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">32</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">104</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">徐园</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800035</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000285971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">好佳美</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">山西</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">39</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">徐园</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800035</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000285971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">好佳美</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">陕西</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">15</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">46</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">徐园</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800035</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000285971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">好佳美</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">四川</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">28</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">107</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">徐园</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800035</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000285971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">好佳美</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">云南</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">35</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">徐园</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800035</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000000285971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">好佳美</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">重庆</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">37</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">徐园</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800035</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000002078939</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">佘勇商贸</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">甘肃</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">75</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">陆珺</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800086</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000002078939</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">佘勇商贸</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">湖南</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">182</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">陆珺</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800086</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000002078939</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">佘勇商贸</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">江苏</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">16</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">298</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">陆珺</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800086</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000002078939</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">佘勇商贸</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">山东</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">327</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">陆珺</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800086</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000002078939</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">佘勇商贸</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">山西</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">123</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">陆珺</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800086</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000002078939</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">佘勇商贸</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">上海</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">135</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">陆珺</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800086</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000002078939</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">佘勇商贸</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">天津</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">陆珺</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800086</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">80000002078939</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">佘勇商贸</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">浙江</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">151</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">陆珺</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402800086</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">90000004838531</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡多亮光电科技有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">福建</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">82</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">陆珺</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402700001</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">90000004838531</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡多亮光电科技有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">广东</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">99</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">陆珺</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402700001</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">90000004838531</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡多亮光电科技有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">河北</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">24</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">126</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">陆珺</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402700001</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">90000004838531</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡多亮光电科技有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">河南</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">23</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">83</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">陆珺</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402700001</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">90000004838531</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡多亮光电科技有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">湖南</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">31</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">陆珺</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402700001</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">90000004838531</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡多亮光电科技有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">山西</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">48</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">陆珺</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402700001</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">90000004838531</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">无锡多亮光电科技有限公司</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">陕西</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">47</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">是</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">陆珺</Data></Cell>
+	<Cell ss:StyleID="s64"><Data ss:Type="String">21402700001</Data></Cell>
+   </Row>
+   <Row ss:Index="125">
+    <Cell ss:MergeAcross="8" ss:StyleID="s92"><Data ss:Type="String">导出时间：2016-03-22</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

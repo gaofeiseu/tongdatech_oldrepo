@@ -1,0 +1,14 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="area_map" extends="system" namespace="/">
+	 
+		<action name="areamap_*" class="com.tongdatech.area_map.action.AreaMapAction" method="{1}"> 
+			<result name="init">/area_map/jsp/area_map.jsp</result>
+		</action>
+		
+	</package>
+</struts>
+
+ 

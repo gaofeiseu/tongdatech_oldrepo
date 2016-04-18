@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="map_v2">
+        <wb-resource deploy-path="/" source-path="/WebRoot" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/sys"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/business"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/demo"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/map"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/question"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/xbxt"/>
+        <property name="context-root" value="/frame"/>
+        <property name="java-output-path" value="/map_v2/WebRoot/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>

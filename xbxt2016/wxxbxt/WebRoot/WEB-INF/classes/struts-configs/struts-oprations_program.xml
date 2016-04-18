@@ -1,0 +1,15 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="oprations_program" extends="system" namespace="/">
+	 
+	    <action name="oprations_program_*" class="com.tongdatech.oprations_program.action.OprationsProgramAction" method="{1}">
+			<result name="init">/OpMaintance/op_js.jsp</result>
+		</action>
+		
+		
+	</package>
+</struts>
+
+ 
